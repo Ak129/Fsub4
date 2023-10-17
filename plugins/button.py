@@ -19,14 +19,14 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="😊 About Us",
+                    text="😊 About me",
                     callback_data="help"
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="Tutup",
-                    callback_data="Tutup"
+                    text="🔒 Close",
+                    callback_data="close"
                 ),
             ],
         ]
@@ -40,7 +40,7 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="😊 About Us",
+                    text="😊 About me",
                     callback_data="help"
                 ),
             ],
@@ -52,8 +52,8 @@ def start_button(client):
             ],
             [
                 InlineKeyboardButton(
-                    text="Tutup",
-                    callback_data="Tutup"
+                    text="🔒 Close",
+                    callback_data="close"
                 ),
             ],
         ]
@@ -67,7 +67,7 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="😊 About Us",
+                    text="😊 About me",
                     callback_data="help"
                 ),
             ],
@@ -79,8 +79,8 @@ def start_button(client):
             ],
             [
                 InlineKeyboardButton(
-                    text="Tutup",
-                    callback_data="Tutup"
+                    text="🔒 Close",
+                    callback_data="close"
                 ),
             ],
         ]
@@ -94,7 +94,7 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="😊 About Us",
+                    text="😊 About me",
                     callback_data="help"
                 ),
             ],
@@ -106,8 +106,8 @@ def start_button(client):
             ],
             [
                 InlineKeyboardButton(
-                    text="Tutup",
-                    callback_data="Tutup"
+                    text="🔒 Close",
+                    callback_data="close"
                 ),
             ],
         ]
@@ -121,7 +121,7 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="😊 About Us",
+                    text="😊 About me",
                     callback_data="help"
                 ),
             ],
@@ -133,8 +133,8 @@ def start_button(client):
             ],
             [
                 InlineKeyboardButton(
-                    text="Tutup",
-                    callback_data="Tutup"
+                    text="🔒 Close",
+                    callback_data="close"
                 ),
             ],
         ]
@@ -148,7 +148,7 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="😊 About Us",
+                    text="😊 About me",
                     callback_data="help"
                 ),
             ],
@@ -164,8 +164,8 @@ def start_button(client):
             ],
             [
                 InlineKeyboardButton(
-                    text="Tutup",
-                    callback_data="Tutup"
+                    text="🔒 Close",
+                    callback_data="close"
                 ),
             ],
         ]
@@ -179,7 +179,7 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="😊 About Us",
+                    text="😊 About me",
                     callback_data="help"
                 ),
             ],
@@ -195,8 +195,8 @@ def start_button(client):
             ],
             [
                 InlineKeyboardButton(
-                    text="Tutup",
-                    callback_data="Tutup"
+                    text="🔒 Close",
+                    callback_data="close"
                 ),
             ],
         ]
@@ -210,7 +210,7 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="😊 About Us",
+                    text="😊 About me",
                     callback_data="help"
                 ),
             ],
@@ -226,8 +226,8 @@ def start_button(client):
             ],
             [
                 InlineKeyboardButton(
-                    text="Tutup",
-                    callback_data="Tutup"
+                    text="🔒 Close",
+                    callback_data="close"
                 ),
             ],
         ]
@@ -241,7 +241,7 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="😊 About Us",
+                    text="😊 About me",
                     callback_data="help"
                 ),
             ],
@@ -257,8 +257,8 @@ def start_button(client):
             ],
             [
                 InlineKeyboardButton(
-                    text="Tutup",
-                    callback_data="Tutup"
+                    text="🔒 Close",
+                    callback_data="close"
                 ),
             ],
         ]
@@ -272,7 +272,7 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="😊 About Us",
+                    text="😊 About me",
                     callback_data="help"
                 ),
             ],
@@ -288,8 +288,8 @@ def start_button(client):
             ],
             [
                 InlineKeyboardButton(
-                    text="Tutup",
-                    callback_data="Tutup"
+                    text="🔒 Close",
+                    callback_data="close"
                 ),
             ],
         ]
@@ -303,7 +303,7 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="😊 About Us",
+                    text="😊 About me",
                     callback_data="help"
                 ),
             ],
@@ -319,8 +319,8 @@ def start_button(client):
             ],
             [
                 InlineKeyboardButton(
-                    text="Tutup",
-                    callback_data="Tutup"
+                    text="🔒 Close",
+                    callback_data="close"
                 ),
             ],
         ]
@@ -334,7 +334,7 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="😊 About Us",
+                    text="😊 About me",
                     callback_data="help"
                 ),
             ],
@@ -354,8 +354,8 @@ def start_button(client):
             ],
             [
                 InlineKeyboardButton(
-                    text="Tutup",
-                    callback_data="Tutup"
+                    text="🔒 Close",
+                    callback_data="close"
                 ),
             ],
         ]
@@ -369,7 +369,7 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="😊 About Us",
+                    text="😊 About me",
                     callback_data="help"
                 ),
             ],
@@ -389,8 +389,8 @@ def start_button(client):
             ],
             [
                 InlineKeyboardButton(
-                    text="Tutup",
-                    callback_data="Tutup"
+                    text="🔒 Close",
+                    callback_data="close"
                 ),
             ],
         ]
@@ -404,7 +404,7 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="😊 About Us",
+                    text="😊 About me",
                     callback_data="help"
                 ),
             ],
@@ -424,8 +424,8 @@ def start_button(client):
             ],
             [
                 InlineKeyboardButton(
-                    text="Tutup",
-                    callback_data="Tutup"
+                    text="🔒 Close",
+                    callback_data="close"
                 ),
             ],
         ]
@@ -439,7 +439,7 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="😊 About Us",
+                    text="😊 About me",
                     callback_data="help"
                 ),
             ],
@@ -459,8 +459,8 @@ def start_button(client):
             ],
             [
                 InlineKeyboardButton(
-                    text="Tutup",
-                    callback_data="Tutup"
+                    text="🔒 Close",
+                    callback_data="close"
                 ),
             ],
         ]
@@ -474,7 +474,7 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="😊 About Us",
+                    text="😊 About me",
                     callback_data="help"
                 ),
             ],
@@ -500,8 +500,8 @@ def start_button(client):
             ],
             [
                 InlineKeyboardButton(
-                    text="Tutup",
-                    callback_data="Tutup"
+                    text="🔒 Close",
+                    callback_data="close"
                 ),
             ],
         ]
@@ -977,4 +977,4 @@ def fsub_button(client, message):
         except IndexError:
             pass
         return buttons
-        
+    
