@@ -10,15 +10,15 @@ load_dotenv("config.env")
 
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
-API_ID = int(os.environ.get("API_ID", "2040"))
-API_HASH = os.environ.get("API_HASH", "b18441a1ff607e10a989891a5462e627")
+API_ID = int(os.environ.get("API_ID", ""))
+API_HASH = os.environ.get("API_HASH", "")
 
 CHANNEL_DB = int(os.environ.get("CHANNEL_DB", ""))
 DATABASE_URL = os.environ.get("DATABASE_URL", "")
 
 RESTRICT = strtobool(os.environ.get("RESTRICT", "True"))
 
-FORCE_SUB_1 = int(os.environ.get("FORCE_SUB_1", "0"))
+FORCE_SUB_1 = int(os.environ.get("FORCE_SUB_1", "-100"))
 FORCE_SUB_2 = int(os.environ.get("FORCE_SUB_2", "0"))
 FORCE_SUB_3 = int(os.environ.get("FORCE_SUB_3", "0"))
 FORCE_SUB_4 = int(os.environ.get("FORCE_SUB_4", "0"))
@@ -27,23 +27,23 @@ WORKERS = int(os.environ.get("WORKERS", "4"))
 
 START_MESSAGE = os.environ.get(
     "START_MESSAGE",
-    "Halo {mention}!"
+    "<b>👋 Hello {mention}!</b>"
     "\n\n"
-    "Saya dapat menyimpan file pribadi di Channel tertentu dan pengguna lain dapat mengaksesnya dari link khusus.",
+    "<b>I can save private files on a specific Channel and other users can access them from a special link</b>.",
 )
 FORCE_MESSAGE = os.environ.get(
     "FORCE_MESSAGE",
-    "Halo {mention}!"
+    "<b>👋 Hello {mention}!</b>"
     "\n\n"
-    "Anda harus bergabung di Channel/Group terlebih dahulu untuk melihat file yang saya bagikan."
+    "<b>🚨You Must Join All The Channel First, to Get Your Mods/Pin/Files.</b>"
     "\n\n"
-    "Silakan Join Ke Channel/Group terlebih dahulu.",
+    "🤖<b>IF you need to rebrand this bot for your channel, contact us: @Abhishekooo.</b>",
 )
 
 try:
     ADMINS = [int(x) for x in (os.environ.get("ADMINS", "").split())]
 except ValueError:
-    raise Exception("Daftar Admin Anda tidak berisi User ID Telegram yang valid.")
+    raise Exception("Your Admin list does not contain a valid Telegram User ID.")
     
 CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 DISABLE_BUTTON = strtobool(os.environ.get("DISABLE_BUTTON", "False"))
