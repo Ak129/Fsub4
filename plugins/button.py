@@ -25,7 +25,7 @@ def start_button(client):
             ],
             [
                 InlineKeyboardButton(
-                    text="Tutup",
+                    text="🔒 Close",
                     callback_data="Tutup"
                 ),
             ],
@@ -52,7 +52,7 @@ def start_button(client):
             ],
             [
                 InlineKeyboardButton(
-                    text="Tutup",
+                    text="🔒 Close",
                     callback_data="Tutup"
                 ),
             ],
@@ -79,7 +79,7 @@ def start_button(client):
             ],
             [
                 InlineKeyboardButton(
-                    text="Tutup",
+                    text="🔒 Close",
                     callback_data="Tutup"
                 ),
             ],
@@ -106,7 +106,7 @@ def start_button(client):
             ],
             [
                 InlineKeyboardButton(
-                    text="Tutup",
+                    text="🔒 Close",
                     callback_data="Tutup"
                 ),
             ],
@@ -133,7 +133,7 @@ def start_button(client):
             ],
             [
                 InlineKeyboardButton(
-                    text="Tutup",
+                    text="🔒 Close",
                     callback_data="Tutup"
                 ),
             ],
@@ -164,7 +164,7 @@ def start_button(client):
             ],
             [
                 InlineKeyboardButton(
-                    text="Tutup",
+                    text="🔒 Close",
                     callback_data="Tutup"
                 ),
             ],
@@ -195,7 +195,7 @@ def start_button(client):
             ],
             [
                 InlineKeyboardButton(
-                    text="Tutup",
+                    text="🔒 Close",
                     callback_data="Tutup"
                 ),
             ],
@@ -226,7 +226,7 @@ def start_button(client):
             ],
             [
                 InlineKeyboardButton(
-                    text="Tutup",
+                    text="🔒 Close",
                     callback_data="Tutup"
                 ),
             ],
@@ -257,7 +257,7 @@ def start_button(client):
             ],
             [
                 InlineKeyboardButton(
-                    text="Tutup",
+                    text="🔒 Close",
                     callback_data="Tutup"
                 ),
             ],
@@ -288,7 +288,7 @@ def start_button(client):
             ],
             [
                 InlineKeyboardButton(
-                    text="Tutup",
+                    text="🔒 Close",
                     callback_data="Tutup"
                 ),
             ],
@@ -319,7 +319,7 @@ def start_button(client):
             ],
             [
                 InlineKeyboardButton(
-                    text="Tutup",
+                    text="🔒 Close",
                     callback_data="Tutup"
                 ),
             ],
@@ -354,7 +354,7 @@ def start_button(client):
             ],
             [
                 InlineKeyboardButton(
-                    text="Tutup",
+                    text="🔒 Close",
                     callback_data="Tutup"
                 ),
             ],
@@ -389,7 +389,7 @@ def start_button(client):
             ],
             [
                 InlineKeyboardButton(
-                    text="Tutup",
+                    text="🔒 Close",
                     callback_data="Tutup"
                 ),
             ],
@@ -424,7 +424,7 @@ def start_button(client):
             ],
             [
                 InlineKeyboardButton(
-                    text="Tutup",
+                    text="🔒 Close",
                     callback_data="Tutup"
                 ),
             ],
@@ -459,7 +459,7 @@ def start_button(client):
             ],
             [
                 InlineKeyboardButton(
-                    text="Tutup",
+                    text="🔒 Close",
                     callback_data="Tutup"
                 ),
             ],
@@ -500,7 +500,7 @@ def start_button(client):
             ],
             [
                 InlineKeyboardButton(
-                    text="Tutup",
+                    text="🔒 Close",
                     callback_data="Tutup"
                 ),
             ],
@@ -977,4 +977,4 @@ def fsub_button(client, message):
         except IndexError:
             pass
         return buttons
-                
+        
