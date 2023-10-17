@@ -4,18 +4,7 @@ from pyrogram.types import InlineKeyboardButton
 
 class Data:
     HELP = """
-Pengguna Bot
-  /start - Mulai
-  /about - Tentang
-  /help - Bantuan
-  /ping - Latensi Bot
-  /uptime - Waktu Aktif
- 
-Admin Bot
-  /logs - Log
-  /users - Statistik Pengguna
-  /batch - Multi Post (Satu Link)
-  /broadcast - Pesan Siaran
+coming Soon....
 """
 
     close = [
