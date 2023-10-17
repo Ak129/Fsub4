@@ -37,7 +37,7 @@ FORCE_MESSAGE = os.environ.get(
     "\n\n"
     "<b>🚨You Must Join All The Channel First, to Get Your Mods/Pin/Files.</b>"
     "\n\n"
-    "⚠️<b>After joining all channels Click on /n ✅Get Link button, to get Mod/Pin/Files</b>",
+    "⚠️<b>After joining all channels Click on /n ✅Done Get Link button, to get Mod/Pin/Files</b>",
 )
 
 try:
