@@ -4,41 +4,27 @@ from pyrogram.types import InlineKeyboardButton
 
 class Data:
     HELP = """
-Pengguna Bot
-  /start - Mulai
-  /about - Tentang
-  /help - Bantuan
-  /ping - Latensi Bot
-  /uptime - Waktu Aktif
- 
-Admin Bot
-  /logs - Log
-  /users - Statistik Pengguna
-  /batch - Multi Post (Satu Link)
-  /broadcast - Pesan Siaran
+Coming Soon....
 """
 
     close = [
-        [InlineKeyboardButton("Tutup", callback_data="close")]
+        [InlineKeyboardButton("🔒 Close", callback_data="close")]
     ]
 
     mbuttons = [
         [
-            InlineKeyboardButton("Bantuan", callback_data="help"),
-            InlineKeyboardButton("Tutup", callback_data="close")
+            InlineKeyboardButton("🔥Trending App", callback_data="help"),
+            InlineKeyboardButton("🔒 Close", callback_data="close")
         ],
     ]
 
     buttons = [
         [
-            InlineKeyboardButton("Tentang", callback_data="about"),
-            InlineKeyboardButton("Tutup", callback_data="close")
+            InlineKeyboardButton("😊 About Me", callback_data="about"),
+            InlineKeyboardButton("🔒 Close", callback_data="close")
         ],
     ]
 
     ABOUT = """
-@{} adalah Bot untuk menyimpan postingan atau file yang dapat diakses melalui link khusus.
-
-  Framework: <a href='https://docs.pyrogram.org'>Pyrogram</a>
-  Re-Code From: <a href='https://github.com/mrismanaziz/File-Sharing-Man'>File-Sharing-Man</a>
-"""
+"<b>○ Creator : <a href='https://t.me/Abhishekooo'>This Person</a>\n○ Language : <code>Python3</code>\n○ Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a></b"""
+    
