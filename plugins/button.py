@@ -19,7 +19,7 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="Bantuan",
+                    text="😊 About Us",
                     callback_data="help"
                 ),
             ],
@@ -40,7 +40,7 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="Bantuan",
+                    text="😊 About Us",
                     callback_data="help"
                 ),
             ],
@@ -67,7 +67,7 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="Bantuan",
+                    text="😊 About Us",
                     callback_data="help"
                 ),
             ],
@@ -94,7 +94,7 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="Bantuan",
+                    text="😊 About Us",
                     callback_data="help"
                 ),
             ],
@@ -121,7 +121,7 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="Bantuan",
+                    text="😊 About Us",
                     callback_data="help"
                 ),
             ],
@@ -148,7 +148,7 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="Bantuan",
+                    text="😊 About Us",
                     callback_data="help"
                 ),
             ],
@@ -179,7 +179,7 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="Bantuan",
+                    text="😊 About Us",
                     callback_data="help"
                 ),
             ],
@@ -210,7 +210,7 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="Bantuan",
+                    text="😊 About Us",
                     callback_data="help"
                 ),
             ],
@@ -241,7 +241,7 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="Bantuan",
+                    text="😊 About Us",
                     callback_data="help"
                 ),
             ],
@@ -272,7 +272,7 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="Bantuan",
+                    text="😊 About Us",
                     callback_data="help"
                 ),
             ],
@@ -303,7 +303,7 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="Bantuan",
+                    text="😊 About Us",
                     callback_data="help"
                 ),
             ],
@@ -334,7 +334,7 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="Bantuan",
+                    text="😊 About Us",
                     callback_data="help"
                 ),
             ],
@@ -369,7 +369,7 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="Bantuan",
+                    text="😊 About Us",
                     callback_data="help"
                 ),
             ],
@@ -404,7 +404,7 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="Bantuan",
+                    text="😊 About Us",
                     callback_data="help"
                 ),
             ],
@@ -439,7 +439,7 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="Bantuan",
+                    text="😊 About Us",
                     callback_data="help"
                 ),
             ],
@@ -474,7 +474,7 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(
-                    text="Bantuan",
+                    text="😊 About Us",
                     callback_data="help"
                 ),
             ],
@@ -527,7 +527,7 @@ def fsub_button(client, message):
             buttons.append(
                 [
                     InlineKeyboardButton(
-                        text="Coba Lagi",
+                        text="✅ Done/Get Link 🔗",
                         url=f"https://t.me/{client.username}?start={message.command[1]}",
                     )
                 ]
@@ -553,7 +553,7 @@ def fsub_button(client, message):
             buttons.append(
                 [
                     InlineKeyboardButton(
-                        text="Coba Lagi",
+                        text="✅ Done/Get Link 🔗",
                         url=f"https://t.me/{client.username}?start={message.command[1]}",
                     )
                 ]
@@ -579,7 +579,7 @@ def fsub_button(client, message):
             buttons.append(
                 [
                     InlineKeyboardButton(
-                        text="Coba Lagi",
+                        text="✅ Done/Get Link 🔗",
                         url=f"https://t.me/{client.username}?start={message.command[1]}",
                     )
                 ]
@@ -605,7 +605,7 @@ def fsub_button(client, message):
             buttons.append(
                 [
                     InlineKeyboardButton(
-                        text="Coba Lagi",
+                        text="✅ Done/Get Link 🔗",
                         url=f"https://t.me/{client.username}?start={message.command[1]}",
                     )
                 ]
@@ -635,7 +635,7 @@ def fsub_button(client, message):
             buttons.append(
                 [
                     InlineKeyboardButton(
-                        text="Coba Lagi",
+                        text="✅ Done/Get Link 🔗",
                         url=f"https://t.me/{client.username}?start={message.command[1]}",
                     )
                 ]
@@ -665,7 +665,7 @@ def fsub_button(client, message):
             buttons.append(
                 [
                     InlineKeyboardButton(
-                        text="Coba Lagi",
+                        text="✅ Done/Get Link 🔗",
                         url=f"https://t.me/{client.username}?start={message.command[1]}",
                     )
                 ]
@@ -695,7 +695,7 @@ def fsub_button(client, message):
             buttons.append(
                 [
                     InlineKeyboardButton(
-                        text="Coba Lagi",
+                        text="✅ Done/Get Link 🔗",
                         url=f"https://t.me/{client.username}?start={message.command[1]}",
                     )
                 ]
@@ -725,7 +725,7 @@ def fsub_button(client, message):
             buttons.append(
                 [
                     InlineKeyboardButton(
-                        text="Coba Lagi",
+                        text="✅ Done/Get Link 🔗",
                         url=f"https://t.me/{client.username}?start={message.command[1]}",
                     )
                 ]
@@ -755,7 +755,7 @@ def fsub_button(client, message):
             buttons.append(
                 [
                     InlineKeyboardButton(
-                        text="Coba Lagi",
+                        text="✅ Done/Get Link 🔗",
                         url=f"https://t.me/{client.username}?start={message.command[1]}",
                     )
                 ]
@@ -785,7 +785,7 @@ def fsub_button(client, message):
             buttons.append(
                 [
                     InlineKeyboardButton(
-                        text="Coba Lagi",
+                        text="✅ Done/Get Link 🔗",
                         url=f"https://t.me/{client.username}?start={message.command[1]}",
                     )
                 ]
@@ -821,7 +821,7 @@ def fsub_button(client, message):
             buttons.append(
                 [
                     InlineKeyboardButton(
-                        text="Coba Lagi",
+                        text="✅ Done/Get Link 🔗",
                         url=f"https://t.me/{client.username}?start={message.command[1]}",
                     )
                 ]
@@ -857,7 +857,7 @@ def fsub_button(client, message):
             buttons.append(
                 [
                     InlineKeyboardButton(
-                        text="Coba Lagi",
+                        text="✅ Done/Get Link 🔗",
                         url=f"https://t.me/{client.username}?start={message.command[1]}",
                     )
                 ]
@@ -893,7 +893,7 @@ def fsub_button(client, message):
             buttons.append(
                 [
                     InlineKeyboardButton(
-                        text="Coba Lagi",
+                        text="✅ Done/Get Link 🔗",
                         url=f"https://t.me/{client.username}?start={message.command[1]}",
                     )
                 ]
@@ -929,7 +929,7 @@ def fsub_button(client, message):
             buttons.append(
                 [
                     InlineKeyboardButton(
-                        text="Coba Lagi",
+                        text="✅ Done/Get Link 🔗",
                         url=f"https://t.me/{client.username}?start={message.command[1]}",
                     )
                 ]
@@ -969,7 +969,7 @@ def fsub_button(client, message):
             buttons.append(
                 [
                     InlineKeyboardButton(
-                        text="Coba Lagi",
+                        text="✅ Done/Get Link 🔗",
                         url=f"https://t.me/{client.username}?start={message.command[1]}",
                     )
                 ]
@@ -977,3 +977,4 @@ def fsub_button(client, message):
         except IndexError:
             pass
         return buttons
+        
