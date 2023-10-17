@@ -26,8 +26,8 @@ coming Soon....
     ]
 
     ABOUT = """
-@{} adalah Bot untuk menyimpan postingan atau file yang dapat diakses melalui link khusus.
+<b>@{} is a bot to save posts or files that can be accessed through a special link.</b>
 
-  Framework: <a href='https://docs.pyrogram.org'>Pyrogram</a>
-  Re-Code From: <a href='https://github.com/mrismanaziz/File-Sharing-Man'>File-Sharing-Man</a>
+  🤖 <b>Bot Re-Brand Available: <a href='https://t.me/Abhishekooo'>Contact me</a></b>
+  🌹 <b>Channels: <a>@OpMods4u @ApkThugs @AiplexMods</a></b>
 """
