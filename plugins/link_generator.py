@@ -13,7 +13,7 @@ async def batch(client: Client, message: Message):
     while True:
         try:
             first_message = await client.ask(
-                text="Teruskan pesan pertama atau paste link post dari CHANNEL_DB",
+                text="Forward the final message or paste the post link from CHANNEL_DB",
                 chat_id=message.from_user.id,
                 filters=(filters.forwarded | (filters.text & ~filters.forwarded)),
                 timeout=60,
@@ -32,7 +32,7 @@ async def batch(client: Client, message: Message):
     while True:
         try:
             second_message = await client.ask(
-                text="Teruskan pesan akhir atau paste link post dari CHANNEL_DB",
+                text="Forward the final message or paste the post link from CHANNEL_DB",
                 chat_id=message.from_user.id,
                 filters=(filters.forwarded | (filters.text & ~filters.forwarded)),
                 timeout=60,
@@ -50,12 +50,12 @@ async def batch(client: Client, message: Message):
 
     string = f"get-{f_msg_id * abs(client.db_channel.id)}-{s_msg_id * abs(client.db_channel.id)}"
     base64_string = await encode(string)
-    link = f"https://t.me/{client.username}?start={base64_string}"
+    link = f"https://telegram.dog/{client.username}?start={base64_string}"
     reply_markup = InlineKeyboardMarkup(
         [
             [
                 InlineKeyboardButton(
-                    "Bagikan Link", url=f"https://telegram.me/share/url?url={link}"
+                    "🔗 Share", url=f"https://telegram.dog/share/url?url={link}"
                 )
             ]
         ]
@@ -72,7 +72,7 @@ async def link_generator(client: Client, message: Message):
     while True:
         try:
             channel_message = await client.ask(
-                text="Teruskan pesan pertama atau paste link post dari CHANNEL_DB",
+                text="Forward the final message or paste the post link from CHANNEL_DB",
                 chat_id=message.from_user.id,
                 filters=(filters.forwarded | (filters.text & ~filters.forwarded)),
                 timeout=60,
@@ -89,12 +89,12 @@ async def link_generator(client: Client, message: Message):
         continue
 
     base64_string = await encode(f"get-{msg_id * abs(client.db_channel.id)}")
-    link = f"https://t.me/{client.username}?start={base64_string}"
+    link = f"https://telegram.dog/{client.username}?start={base64_string}"
     reply_markup = InlineKeyboardMarkup(
         [
             [
                 InlineKeyboardButton(
-                    "Bagikan Link", url=f"https://telegram.me/share/url?url={link}"
+                    "🔗 Share", url=f"https://telegram.dog/share/url?url={link}"
                 )
             ]
         ]
@@ -103,4 +103,5 @@ async def link_generator(client: Client, message: Message):
         f"Link: {link}",
         quote=True,
         reply_markup=reply_markup,
-    )
+            )
+
