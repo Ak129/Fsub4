@@ -8,18 +8,18 @@ from logging.handlers import RotatingFileHandler
 
 load_dotenv("config.env")
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "6461358025:AAGU5DQRiN17RgT_WpXj4YExeem3ej6AuMw")
 
-API_ID = int(os.environ.get("API_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
+API_ID = int(os.environ.get("API_ID", "26562289"))
+API_HASH = os.environ.get("API_HASH", "d7426fd6f91cff563d62d318a7e5aab1")
 
-CHANNEL_DB = int(os.environ.get("CHANNEL_DB", ""))
-DATABASE_URL = os.environ.get("DATABASE_URL", "")
+CHANNEL_DB = int(os.environ.get("CHANNEL_DB", "-1001818902142"))
+DATABASE_URL = os.environ.get("DATABASE_URL", "postgres://agmmlzsy:YcJlBiH6otmbc9LXCbS2jzLOUY58MCfD@trumpet.db.elephantsql.com/agmmlzsy")
 
 RESTRICT = strtobool(os.environ.get("RESTRICT", "True"))
 
-FORCE_SUB_1 = int(os.environ.get("FORCE_SUB_1", "-100"))
-FORCE_SUB_2 = int(os.environ.get("FORCE_SUB_2", "0"))
+FORCE_SUB_1 = int(os.environ.get("FORCE_SUB_1", "-1001864926969"))
+FORCE_SUB_2 = int(os.environ.get("FORCE_SUB_2", "-1001605233670"))
 FORCE_SUB_3 = int(os.environ.get("FORCE_SUB_3", "0"))
 FORCE_SUB_4 = int(os.environ.get("FORCE_SUB_4", "0"))
 
