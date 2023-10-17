@@ -8,13 +8,13 @@ coming Soon....
 """
 
     close = [
-        [InlineKeyboardButton("Tutup", callback_data="close")]
+        [InlineKeyboardButton("🔒 Close", callback_data="close")]
     ]
 
     mbuttons = [
         [
-            InlineKeyboardButton("Bantuan", callback_data="help"),
-            InlineKeyboardButton("Tutup", callback_data="close")
+            InlineKeyboardButton("😊 About me", callback_data="help"),
+            InlineKeyboardButton("🔒 Close", callback_data="close")
         ],
     ]
 
