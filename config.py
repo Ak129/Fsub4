@@ -37,7 +37,7 @@ FORCE_MESSAGE = os.environ.get(
     "\n\n"
     "<b>🚨You Must Join All The Channel First, to Get Your Mods/Pin/Files.</b>"
     "\n\n"
-    "🤖<b>IF you need to rebrand this bot for your channel, contact us: @Abhishekooo.</b>",
+    "⚠️<b>After joining all channels Click on ✅Get Link button, to get Mod/Pin/Files</b>",
 )
 
 try:
