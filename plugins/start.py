@@ -180,7 +180,7 @@ async def get_users(client: Bot, message: Message):
         chat_id=message.chat.id, text="🕵️‍♂️ Getting Users..."
     )
     users = await full_userbase()
-    await msg.edit(f"😊 {len(users)} Users are Using This Bot.")
+    await msg.edit(f"🔥 {len(users)} Users are Using This Bot.")
 
 
 @Bot.on_message(filters.command("broadcast") & filters.user(ADMINS))
