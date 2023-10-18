@@ -95,7 +95,7 @@ async def start_command(client: Bot, message: Message):
                 ids = [int(int(argument[1]) / abs(client.db_channel.id))]
             except BaseException:
                 return
-        temp_msg = await message.reply("Sedang diproses...")
+        temp_msg = await message.reply("⚡ Link Genrating...")
         try:
             messages = await get_messages(client, ids)
         except BaseException:
@@ -177,10 +177,10 @@ async def not_joined(client: Bot, message: Message):
 @Bot.on_message(filters.command(["users", "stats"]) & filters.user(ADMINS))
 async def get_users(client: Bot, message: Message):
     msg = await client.send_message(
-        chat_id=message.chat.id, text="Sedang diproses..."
+        chat_id=message.chat.id, text="🕵️‍♂️ Getting Users..."
     )
     users = await full_userbase()
-    await msg.edit(f"{len(users)} Pengguna")
+    await msg.edit(f"😊 {len(users)} Users are Using This Bot.")
 
 
 @Bot.on_message(filters.command("broadcast") & filters.user(ADMINS))
@@ -195,7 +195,7 @@ async def send_text(client: Bot, message: Message):
         unsuccessful = 0
 
         pls_wait = await message.reply(
-            "Mengirim pesan siaran..."
+            "🚀 Send a broadcast message..."
         )
         for row in query:
             chat_id = int(row[0])
@@ -217,16 +217,16 @@ async def send_text(client: Bot, message: Message):
                     unsuccessful += 1
                 total += 1
         status = f"""
-Berhasil!
-Pengguna: {total}
-Berhasil: {successful}
-Gagal: {unsuccessful}
-Diblokir: {blocked}
-Akun Terhapus: {deleted}"""
+♥️Succeed!
+ 👨 Users: {total}
+✅ Successful: {successful}
+❌ Failed: {unsuccessful}
+🚧 Blocked: {blocked}
+🗑️ Deleted Account: {deleted}"""
         return await pls_wait.edit(status)
     else:
         msg = await message.reply(
-            "Balas ke pesan!"
+            "📨 Reply to messages!"
         )
         await asyncio.sleep(5)
         await msg.delete()
@@ -238,7 +238,7 @@ async def ping_pong(client, m: Message):
     m_reply = await m.reply_text("...")
     delta_ping = time() - start
     await m_reply.edit_text(
-        f"Hasil: {delta_ping * 1000:.3f}ms"
+        f"🏓Ping: {delta_ping * 1000:.3f}ms"
     )
 
 
@@ -248,6 +248,7 @@ async def get_uptime(client, m: Message):
     uptime_sec = (current_time - START_TIME).total_seconds()
     uptime = await _human_time_duration(int(uptime_sec))
     await m.reply_text(
-        f"Waktu Aktif: {uptime}\n"
-        f"Sejak: {START_TIME_ISO}"
-    )
+        f"🕣 Uptime: {uptime}\n"
+        f"📡 Since: {START_TIME_ISO}"
+                       )
+    
