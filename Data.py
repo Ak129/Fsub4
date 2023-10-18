@@ -13,14 +13,14 @@ coming Soon....
 
     mbuttons = [
         [
-            InlineKeyboardButton("😊 About me", callback_data="help"),
+            InlineKeyboardButton("◀️ Back", callback_data="help"),
             InlineKeyboardButton("🔒 Close", callback_data="close")
         ],
     ]
 
     buttons = [
         [
-            InlineKeyboardButton("◀️ Back", callback_data="about"),
+            InlineKeyboardButton("😊 About me", callback_data="about"),
             InlineKeyboardButton("🔒 Close", callback_data="close")
         ],
     ]
